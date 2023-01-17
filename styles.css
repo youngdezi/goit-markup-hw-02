@@ -1,0 +1,317 @@
+/*Змінні*/
+:root {
+    --body-text-color: #434455;
+    --titele-color: #2E2F42;
+    --bacground-footer-color: #2E2F42;
+    --primary-brand-color: #4D5AE5;
+    --white-title-color: #FFFFFF;
+    --background-block-color: #E5E5E5;
+    --accent-color: #E7E9FC;
+    --bacground-button-color:  #F4F4FD;
+    --button-active-color: #404BBF;
+    
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: var(--body-text-color);
+    background-color: var(--background-block-color);
+}
+.list {
+    list-style: none;
+}
+
+.header {
+    background-color: var(--white-title-color);
+
+}
+
+.header-logo {
+    font-family: 'Raleway' sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-brand-color);
+    text-decoration: none;
+}
+.header-logo.first{
+    color: var(--titele-color);
+    
+
+}
+
+
+
+.studio-link {
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--titele-color);
+
+}
+.studio-link:hover,
+.studio-link:focus {
+    color: var(--body-text-color);
+}
+.studio-link:active {
+    color: var(--primary-brand-color);
+}
+.navigation-list .studio-link.current {
+    color: var(--primary-brand-color);
+}
+
+.portfolio-link {
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--titele-color);
+
+}
+.portfolio-link:hover,
+.portfolio-link:focus {
+    color: var(--body-text-color);
+}
+.portfolio-link:active {
+    color: var(--primary-brand-color);
+}
+.navigation-list .portfolio-link.current {
+    color: var(--primary-brand-color);
+}
+.contacts-link {
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--titele-color);
+}
+
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--body-text-color);
+}
+.contacts-link:active {
+    color: var(--primary-brand-color);
+}
+
+
+.contacts {
+    
+}
+
+.contacts-mail {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--body-text-color);
+    
+}
+.contacts-mail:hover,
+.contacts-mail:focus {
+    color: var(--primary-brand-color);
+}
+.contacts-mail:active {
+    color: var(--primary-brand-color);
+}
+
+
+.contacts-tel{
+    
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--body-text-color);
+
+}
+.contacts-tel:hover,
+.contacts-tel:focus {
+    color: var(--primary-brand-color);
+}
+
+.contacts-tel:active {
+    color: var(--primary-brand-color);
+}
+
+/* -----------hero------------ */
+
+.hero{
+    background-color: var(--bacground-footer-color);
+
+}
+.hero-title {
+    
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--white-title-color);
+
+}
+.hero-button {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 600;
+    line-height: 1.19;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: var(--white-title-color);
+    background-color: var(--primary-brand-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    
+}
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--primary-brand-color);
+
+}
+.hero-button:active {
+    background-color: var(--button-active-color:);
+}
+
+/* ------------about compan------------- */
+
+.visually-hidden {
+    
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+.mision-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--titele-color);
+}
+.mision-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+.section-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--titele-color);
+}
+.team {
+    background-color: var(--bacground-button-color);
+
+}
+.team-first-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--titele-color);
+
+   
+
+}
+.team-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.team-text {
+    
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    }
+
+/* --------------FOOTER--------------- */
+
+.footer {
+    background-color: var(--bacground-footer-color);
+}
+.footer-logo {
+    color: var(--bacground-button-color);
+}
+.footer-text {
+    
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--accent-color)
+}
+
+
+/* ----------------PORTFOLIO-------------- */
+
+
+.portfolio-button {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 600;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: var(--primary-brand-color);
+    background-color: var(--bacground-button-color);
+    box-sizing: border-box;
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+    color: var(--white-title-color);
+    background-color: var(--primary-brand-color);
+
+}
+.portfolio-button:active {
+    color: var(--white-title-color);
+    background-color: var(--button-active-color);
+}
+.link {
+    text-decoration: none;
+
+}
+.gallery-list {
+    background-color: var(--white-title-color);
+
+}
+
+.portfolio-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--titele-color);
+    
+}
+.portfolio-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--body-text-color);
+}
